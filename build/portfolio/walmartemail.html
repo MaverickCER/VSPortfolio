@@ -1,0 +1,437 @@
+<!--
+
+HTML Email by MaverickCER
+This example is inspired by a Walmart email I recieved.
+email at 1920: https://drive.google.com/file/d/1fSgtwfJr9t-0tHczSJVmiRX1V_hN278e/view?usp=sharing
+email at 280: https://drive.google.com/file/d/1fma6AjU-bSTsj2YBnGoL18XLP61Uy1nC/view?usp=sharing
+In this version, all links are replaced with https://www.example.com.
+
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
+  <title>HTML Email by MaverickCER</title>
+  <style type="text/css">
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+    /* Custom Dark Mode Colors */
+    :root {
+      color-scheme: light dark;
+      supported-color-schemes: light dark;
+    }
+
+    table {
+      border-spacing: 0;
+    }
+
+    td {
+      padding: 0;
+    }
+
+    p {
+      font-size: 15px;
+      padding: 0;
+    }
+
+    img {
+      border: 0;
+    }
+
+    a {
+      color: #e8fbfa;
+      text-decoration: none;
+    }
+
+    @media screen and (max-width: 599.98px) {
+
+      .two-columns .padding,
+      .two-third-columns .padding,
+      .three-columns .padding {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+      }
+
+      img.two-col-img {
+        width: 300px !important;
+        max-width: 300px !important;
+      }
+
+      .two-third-columns .padding.first {
+        padding-bottom: 0 !important;
+      }
+
+      .two-third-columns .padding.last {
+        padding-top: 0 !important;
+      }
+
+      img.one-third-col-img,
+      img.three-col-img-last {
+        width: 200px !important;
+        max-width: 200px !important;
+      }
+
+      .two-third-columns .content {
+        text-align: center !important;
+      }
+    }
+
+    @media screen and (max-width: 399.98px) {
+      img.three-col-img {
+        width: 200px !important;
+        max-width: 200px !important;
+      }
+    }
+
+    @media (prefers-color-scheme: dark) {
+
+      body,
+      center,
+      table,
+      card {
+        background: #2d2d2d !important;
+        color: #ffffff !important;
+      }
+
+      .darkmode-transparent {
+        background-color: transparent !important;
+      }
+    }
+  </style>
+  <!--[if (gte mso 9)|(IE)]>
+    <style type="text/css">
+      table {border-collapse: collapse !important;}
+    </style>
+  <![endif]-->
+</head>
+
+<body style="Margin:0;padding:0;min-width:100%;background-color:#dde0e1;">
+  <!--[if (gte mso 9)|(IE)]>
+    <style type="text/css">
+      body {background-color:#dde0e1!important;}
+      body, table, td, p, a {font-family: sans-serif, Arial, Helvitica!important;}
+    </style>
+  <![endif]-->
+  <center style="width: 100%;table-layout: fixed;background-color:#dde0e1;padding: 40px 0;">
+    <div style="max-width: 600px;background-color: #fafdfe;box-shadow: 0 0 10px rgba(0, 0, 0, .2);">
+      <div style="font-size: 0px;color: #fafdfe;line-height: 1px;mso-line-height-rule:exactly;display: none;max-width: 0px;max-height: 0px;opacity: 0;overflow: hidden;mso-hide:all;">
+        This email was created by MaverickCER as an example for his portfolio on maverickcer.dev
+      </div>
+      <!-- 
+        table > tr > td required before table in IE or gte mso 9 emails
+        No additional comments are made as many clients spam filter emails with many comments  
+      -->
+      <table width="600" align="center" style="border-spacing:0;color:#565656;" role="presentation">
+        <tr>
+          <td style="padding:0;">
+            <table align="center" style="border-spacing:0;color:#565656;font-family: 'Lato', sans-serif, Arial, Helvitica!important;background-color: #fafdfe;Margin:0;padding:0;width: 100%;max-width: 600px;" role="presentation">
+              <tbody>
+                <tr>
+                  <td style="padding: 0;">
+                    <table width="100%" style="border-spacing: 0;background-color: #eaf6fb;" role="presentation">
+                      <tbody>
+                        <tr>
+                          <td style="background-color: #F47321; text-align: left; border-bottom: 5px solid black; padding: 8px;">
+                            <img src="https://i.imgur.com/JbdT9mU.png" alt="walmart logo">
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="background-color: #F47321;">
+                            <section style="background-color: #FFC220; border-bottom-left-radius: 50% 40%; border-bottom-right-radius: 50% 40%; padding-bottom: 20px;">
+                              <div style="position: relative; height: 260px; background: url('https://www.teachearlyyears.com/images/made/29194c081e687370/PPfv1_630_465_84_int_s_c1.jpg') no-repeat 0 0; border-bottom-left-radius: 50% 40%; border-bottom-right-radius: 50% 40%; overflow: hidden;">
+                                <div style="width: 80%; background-color: white; margin: 20px auto; color: black; padding: 10px; text-align: center; height: 900px;">
+                                  <h1 style="color: #F47321;">Your opinion means everything</h1>
+                                  <p style="Margin-bottom: -15px;">For a chance to win a</p>
+                                  <h2 style="Margin-bottom: -15px;">$1,000 Walmart Gift Card*,</h2>
+                                  <h3 style="font-weight: 300; padding:0 10px;">take a few minutes to fill out this survey about your recent Walmart online grocery purchase. Your feedback will help us improve our survice.</h3>
+                                </div>
+                              </div>
+                            </section>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <table width="100%" style="border-spacing: 0;" role="presentation">
+                              <tbody>
+                                <tr>
+                                  <td class="two-columns" style="padding: 0;font-size: 0;text-align: left;background-color: #F47321;">
+
+                                    <!--[if (gte mso 9)|(IE)]>
+                              <table width="100%" style="border-spacing: 0;" role="presentation">
+                              <tr>
+                              <td width="200" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                                    <table class="column" style="border-spacing: 0;vertical-align: top;width: 100%;max-width: 420px;display: inline-block;" role="presentation">
+                                      <tbody>
+                                        <tr>
+                                          <td class="padding first" style="padding: 15px 20px 15px 20px;background-color: #F47321;">
+
+                                            <table class="content" style="border-spacing: 0;text-align: left;color: black;background-color: #F47321;" role="presentation">
+                                              <tbody>
+                                                <tr>
+                                                  <td style="color: black;background-color: #F47321;font-weight:100;">
+                                                    <p>*Entries drawn for $80,000 in total prizes. Win one of five $1,000 Walmart Gift Cards or one of 750 $100 Walmart Gift Cards. Valid in stores or on Walmart.com.</p>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+                                    <!--[if (gte mso 9)|(IE)]>
+                           </td><td width="400" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                                    <table class="column" style="border-spacing: 0;vertical-align: top;width: 100%;max-width:100px;display: inline-block;" role="presentation">
+                                      <tbody>
+                                        <tr>
+                                          <td class="padding last" style="padding: 30px 10px 15px 10px;background-color: #F47321;">
+
+                                            <table class="content" style="border-spacing: 0;text-align: left;" role="presentation">
+                                              <tbody>
+                                                <tr>
+                                                  <td style="vertical-align: middle;padding: 0 10px 0 10px;background-color: #F47321;">
+                                                    <a href="https://www.example.com" target="_blank"><img src="https://i.imgur.com/OFjokYK.png" alt="pickup logo" border=0></a>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+                                    <!--[if (gte mso 9)|(IE)]>
+                              </td>
+                              </tr>
+                              </table>
+                           <![endif]-->
+
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <h3 style="padding: 10px;">How likely is it that you would recommend Walmart online grocery to a friend or colleague?</h3>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p style="padding: 0 10px;display:block;width:calc(100% - 20px);"><span style="float:left">Not at all likely</span><span style="float:right;">Extremely likely</span></p>
+                            <section style="text-align:center; padding-top:40px;">
+                              <a href="https://www.example.com" target="_blank" style="background-color:#082d61;color:white;border-radius:100%;padding:10px 12px;Margin:5px;">
+                                0
+                              </a>
+                              <a href="https://www.example.com" target="_blank" style="background-color:#082d61;color:white;border-radius:100%;padding:10px 12px;Margin:5px;">
+                                1
+                              </a>
+                              <a href="https://www.example.com" target="_blank" style="background-color:#082d61;color:white;border-radius:100%;padding:10px 12px;Margin:5px;">
+                                2
+                              </a>
+                              <a href="https://www.example.com" target="_blank" style="background-color:#082d61;color:white;border-radius:100%;padding:10px 12px;Margin:5px;">
+                                3
+                              </a>
+                              <a href="https://www.example.com" target="_blank" style="background-color:#082d61;color:white;border-radius:100%;padding:10px 12px;Margin:5px;">
+                                4
+                              </a>
+                              <a href="https://www.example.com" target="_blank" style="background-color:#082d61;color:white;border-radius:100%;padding:10px 12px;Margin:5px;">
+                                5
+                              </a>
+                              <a href="https://www.example.com" target="_blank" style="background-color:#082d61;color:white;border-radius:100%;padding:10px 12px;Margin:5px;">
+                                6
+                              </a>
+                              <a href="https://www.example.com" target="_blank" style="background-color:#082d61;color:white;border-radius:100%;padding:10px 12px;Margin:5px;">
+                                7
+                              </a>
+                              <a href="https://www.example.com" target="_blank" style="background-color:#082d61;color:white;border-radius:100%;padding:10px 12px;Margin:5px;">
+                                8
+                              </a>
+                              <a href="https://www.example.com" target="_blank" style="background-color:#082d61;color:white;border-radius:100%;padding:10px 12px;Margin:5px;">
+                                9
+                              </a>
+                              <a href="https://www.example.com" target="_blank" style="background-color:#082d61;color:white;border-radius:100%;padding:10px 12px;Margin:5px;">
+                                10
+                              </a>
+                            </section>
+                            <p style="padding:10px;display:block;width:calc(100% - 20px);">Need help? Email us at <a href="mailto:example@example.com" target="_blank" style="text-decoration:underline">surveysupport@walmart.com</a></p>
+                            <small style="padding:10px;display:block;width:calc(100% - 20px);">* No purchase necessary. Must be 18 or older and a legal resident of the 50 US, DC, or PR to enter. To enter without purchase and for official rules, visit <a href="https://www.example.com" target="_blank" style="text-decoration:underline">www.entry.survey.walmart.com</a>. Sweepstakes period ends on the date outlined in the official rules. Survey must be taken within ONE week of today. Void where prohibited.<br /><a href="https://www.example.com" target="_blank" style="text-decoration:underline">Sweepstakes Rules</a></small>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="2" style="background-color: #000;"></td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tbody>
+                                <tr>
+                                  <td>
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" style="background-color:#041e42" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td height="4" width="100%">
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td height="21" width="100%">
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td style="width:3%">
+                                            &nbsp;
+                                          </td>
+                                          <td style="width:39.8%">
+                                            <a href="https://www.example.com" title="Mobile Apps" target="_blank">
+                                              <img alt="mobile apps" width="98" height="25" src="https://ci4.googleusercontent.com/proxy/QTlngm9206f4Wpss0rIA6q7pC2r_ZFnouD8t8n1m7iP5T_d25Gb64HcZ_LuIiF1p9ZzQu7yD1l1-Gfhs46DRqqnz9PU1Px-ZhrigFoAj4XOZimUaM4jo4WRMCzUavEjTT3_QWtkqc2j2l0dAQmNXhUU=s0-d-e1-ft#https://i5.walmartimages.com/dfw/4ff9c6c9-a188/k2-_91b88615-9571-4edf-9ae0-6421cc73178b.v1.jpg">
+                                            </a>
+                                          </td>
+                                          <td style="width:66%">
+                                            <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%">
+                                              <tbody>
+                                                <tr>
+                                                  <td width="17.84%">
+                                                    <a href="https://www.example.com" title="Twitter" target="_blank">
+                                                      <img alt="Share on Twitter1" src="https://ci3.googleusercontent.com/proxy/cC9qplk1pc8ABsvZJ3u4UI0f2B3AKH2i25ZBOaWUDqJIX0bsStJXP5AhLVIulsz6ero4aLyJdsbBYzem1teQ0Hk20qIlri6Ikl7r5KG9FtE17i74k6uUjXXxwxptmJ_fOAS6xa-ZZ6zDSMla_T2LBcQ=s0-d-e1-ft#https://i5.walmartimages.com/dfw/4ff9c6c9-5b29/k2-_98f4a9ca-2697-49f8-b77a-1959159af330.v1.jpg" width="29" height="25">
+                                                    </a>
+                                                  </td>
+                                                  <td width="17.84%">
+                                                    <a href="https://www.example.com" title="Pinterest" target="_blank">
+                                                      <img alt="Share on Pinterest" src="https://ci6.googleusercontent.com/proxy/oq7pcYyvpJTEWqkbVIZufYmOd5ZySRSqJf5dt7YQGnLKVPUWBvGSNbzj6kTk-MlgN-VCdu_UCfmnUoub-Lf-f-rPR_LVGKv8GJTzAr0Nbv1Ca68md_Glli4YK_h8jVKBAyMY0c-pPDA16GaQJKX-dww=s0-d-e1-ft#https://i5.walmartimages.com/dfw/4ff9c6c9-6715/k2-_3386d1e8-9de0-4add-98b7-3e506e81206a.v1.jpg" width="29" height="25">
+                                                    </a>
+                                                  </td>
+                                                  <td width="17.84%">
+                                                    <a href="https://www.example.com" title="Facebook" target="_blank">
+                                                      <img alt="Share on Facebook" src="https://ci6.googleusercontent.com/proxy/MwcFdyKgfShF1JGyUNvtaSxCIXz6Y1PFpjQWWPQdn_yC3kVSO54-r7zimydIej4E61jnTmEOmkpi3MaJjvYzoaGr3Qj-awhlj8s5oQpBzXimpqI2SkSnCSog-U7t8ih8lmKSFMdGO-YEbIQfD7D5mcA=s0-d-e1-ft#https://i5.walmartimages.com/dfw/4ff9c6c9-f74c/k2-_3269c86b-46aa-456e-a1d6-1f42581dd441.v1.jpg" width="29" height="25">
+                                                    </a>
+                                                  </td>
+                                                  <td width="17.84%">
+                                                    <a href="https://www.example.com" title="Youtube" target="_blank">
+                                                      <img alt="Share on Youtube" src="https://ci5.googleusercontent.com/proxy/PMtue4fhRxU0kg-bXKqqlwi65XcdmexpDhl_HFm4056S6UicviSNXn3FpEJjkhDlEJSRzxl-waXXT2v1-65-GcnC7eEUwEYaE0pVn9gF-E214qZITeCnaPcFWcZHgzx0RBOm29IccLXCZxJXyqSGrjY=s0-d-e1-ft#https://i5.walmartimages.com/dfw/4ff9c6c9-39b0/k2-_c2f6ed3c-1aec-48fe-8f3e-d327eae748fd.v1.jpg" width="29" height="25">
+                                                    </a>
+                                                  </td>
+                                                  <td width="10.8%">
+                                                    <a href="https://www.example.com" title="Instagram" target="_blank">
+                                                      <img alt="Share on Instagram" src="https://ci6.googleusercontent.com/proxy/Z5Cv5chPtcS1JvWJkCilxef2TuL7S_dwdfe9suc1WzzzL-8zSYy3EpZE95yoD_zSTVZBEjLSdIbOxmhOybDQ_j_NVFq3ydig1YWl7Nh47Oue8QFzpozqS8NZ30c7x_pS0OhSxwiefqShYd1z8DMIHww=s0-d-e1-ft#https://i5.walmartimages.com/dfw/4ff9c6c9-7c91/k2-_083f6115-8198-420e-b25c-5c8c905966da.v1.jpg" width="29" height="25">
+                                                    </a>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" valign="top" width="100%">
+                              <tbody>
+                                <tr>
+                                  <td align="left" valign="top">
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" style="margin:0 auto" width="94%">
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            <small>
+                                              <br>
+                                              Do not reply to this email. The inbox is not monitored. If you require assistance, please
+                                              <a href="https://www.example.com" style="text-decoration:underline" title="click here for help" target="_blank">
+                                                click here for help.
+                                              </a>
+                                              <br>
+                                              <br>
+                                              For more information about Walmart Grocery, please
+                                              <a href="https://www.example.com" style="text-decoration:underline" title="click here for WOG" target="_blank">
+                                                click here.
+                                              </a>
+                                            </small>
+                                            <br>
+                                            <br>
+                                            <b>
+                                              Unsubscribe
+                                            </b>
+                                            <small>
+                                              <br>
+                                              This email is a Walmart advertisement. If you do not want to receive these
+                                              surveys,
+                                              <a href="https://www.example.com" style="text-decoration:underline" title="Email Opt Out" target="_blank">
+                                                click here to unsubscribe.
+                                              </a>
+                                              <br>
+                                              <br>
+                                            </small>
+                                            <b>
+                                              Security &amp; Privacy
+                                            </b>
+                                            <br />
+                                            <small>
+                                              Walmart protects your security and privacy. We will never ask for personal
+                                              information (such as passwords or credit card numbers) in an email
+                                              newsletter. If you receive such a request, please do not respond to the
+                                              email.
+                                              <a href="https://www.example.com" style="text-decoration:underline" title="Learn more about our privacy and online safety tips" target="_blank">
+                                                Learn more.
+                                              </a>
+                                              See our
+                                              <a href="https://www.example.com" style="text-decoration:underline" target="_blank">Privacy Policy</a>.
+                                              <br>
+                                              <br>
+                                              <small>
+                                                Email Marketing, <a href="https://www.example.com" style="text-decoration:none">Walmart.com</a>,
+                                                850 Cherry Avenue, San Bruno CA 94066.
+                                              </small>
+                                              <br>
+                                              <br>
+                                              © 2021 Walmart Inc. All rights reserved.
+                                              <br>
+                                              <br>
+                                            </small>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </center>
+</body>
+
+</html>
