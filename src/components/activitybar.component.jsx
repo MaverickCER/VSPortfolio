@@ -28,7 +28,7 @@ const ActivityBar = (props) => {
             </Link>
           </li>
           <li className={isOpen === "Portfolio" ? "selected" : null}>
-            <Link to="/Portfolio" name="Portfolio" onClick={handleChange}>
+            <Link to="/portfolio" name="Portfolio" onClick={handleChange}>
               <Extension />
             </Link>
           </li>
@@ -118,12 +118,11 @@ const ActivityBar = (props) => {
                             defaultChecked
                           />
                           <label className="title" htmlFor="toggle3">
-                            HTML Email
+                            HTML&nbsp;Email
                           </label>
                           <div className="content">
                             <Link to="/portfolio/linkedinemail.html">
-                              <HTML5 />
-                              Lead Nurturing
+                              <HTML5 />Lead&nbsp;Nurturing
                             </Link>
                             <Link to="/portfolio/transamericaemail.html">
                               <HTML5 />
@@ -149,7 +148,7 @@ const ActivityBar = (props) => {
                           rel="noreferrer"
                         >
                           <Jquery />
-                          Callouts Evolved
+                          Callouts&nbsp;Evolved
                         </a>
                         <a
                           href="https://qre2k.csb.app/"
@@ -190,17 +189,21 @@ const ActivityBar = (props) => {
                         MaverickCER
                       </label>
                       <div className="content">
-                        <a href="/">
-                          <ReactLogo />
-                          Welcome
-                        </a>
                         <a href="/#About">
                           <ReactLogo />
                           About
                         </a>
+                        <a href="/#CER">
+                          <ReactLogo />
+                          CER
+                        </a>
                         <a href="/#Contact">
                           <ReactLogo />
                           Contact
+                        </a>
+                        <a href="/#Welcome">
+                          <ReactLogo />
+                          Welcome
                         </a>
                       </div>
                     </div>
@@ -223,12 +226,11 @@ const ActivityBar = (props) => {
                             defaultChecked
                           />
                           <label className="title" htmlFor="toggle3">
-                            HTML Email
+                            HTML&nbsp;Email
                           </label>
                           <div className="content">
                             <Link to="/portfolio/linkedinemail.html">
-                              <HTML5 />
-                              Lead Nurturing
+                              <HTML5 />Lead&nbsp;Nurturing
                             </Link>
                             <Link to="/portfolio/transamericaemail.html">
                               <HTML5 />
@@ -254,7 +256,7 @@ const ActivityBar = (props) => {
                           rel="noreferrer"
                         >
                           <Jquery />
-                          Callouts Evolved
+                          Callouts&nbsp;Evolved
                         </a>
                         <a
                           href="https://qre2k.csb.app/"

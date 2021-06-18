@@ -1,45 +1,52 @@
 import React from "react";
 
-const DetailsComponent = ({name}) => {
+const DetailsComponent = ({ name }) => {
   return (
     <React.Fragment>
-    {
       {
-        linkedinemail: (
-          <div className="details">
-            <h3>Getting Started:</h3><hr/>
-            <p>Lead nurturing emails encourage subscribers to interact with your site. The more people interact, the more likely they are to make a purchase. This particular email offers the subscriber a free trial period of a service that offers many benefits in hopes that the user will become a paying customer once the service ends</p>
-            <p>This was the first email I built. I liked the challenge presented by the various shades and trying to fully color the backgrounds. The header was more challenging as it is broken into multiple sub sections. The images all have transparent backgrounds so this would not be too hard to make dark mode friendly, but I already altered the walmart email significantly and just wanted this example to be a carbon copy.</p>
-          </div>
-        ),
-        transamericaemail: (
-          <div className="details">
-            <h3>TransAmerica Email</h3><hr/>
-            <p>Milestone emails help your business stand out and remind subscribers of your benefits. This example email from TransAmerica was delivered on my birthday which I thought was a nice personal touch. This was probably the easiest email I made as it was mostly pictures and text in single column layouts. A dark mode was implemented for users that prefer it, but the result isn't as nice because of the bright header and hero section.</p>
-          </div>
-        ),
-        soylentemail: (
-          <div className="details">
-            <h3>Soylent Email</h3><hr/>
-            <p>Newsworthy emails announcing new products are great way to get previous customers to come back in. I've been a follower of Soylent for quite some time but this has got to be their best product announcement! At this point I've found my footing and didn't come across any obstacles!</p>
-          </div>
-        ),
-        displateemail: (
-          <div className="details">
-            <h3>Displate Email</h3><hr/>
-            <p>Promotional emails are the king of catching people's attention. Displate makes great, apartment friendly, wall art and I've used them 3 holidays in a row to create a gorgeous three peice art set.</p>
-            <p>As for development, this email was the most intricate and I had some trouble with the active countdown timer. In the end, I decided to implement the same technology as the original email and show the timer through a GIF hosted by sendtric. The original email had some odd spacing on the posters and text so I recreated it here. That being said, I would probbaly recommend using consistent paddings so everything is properly aligned.</p>
-          </div>
-        ),
-        walmartemail: (
-          <div className="details">
-            <h3>Transitioning from Hobbyist to Professional:</h3><hr/>
-            <p>This was my first html email that I wrote after completing an html email series on Udemy. It took me several hours becuase it was my first attempt and the original email utilized a hero image similar to the displate promotional email. I recognized that the patterns in the picture were not too complex. I decided to remake the image as close as possible using border properies. I also paid special attention to the ghost tables or conditional comments to ensure that the email would render correctly in most clients.</p>
-            <p>Going from an artist's environment to a more structured one was an interesting experience. I decided that I would try to compose html emails for a full 8 hour work day and use that work as the foundation for this portfolio.</p>
-          </div>
-        ),
-      }[name.slice(0, -5)]
-    }
+        {
+          linkedinemail: (
+            <div className="details">
+              <h3>LinkedIn Email:</h3><hr />
+              <p>Lead nurturing emails are a critical part of any sales cycle. They are responsible for increasing sales by maintaining relationships with customers. Ideally, a good lead nurturing email will be targeted, customized, and valuable.</p>
+              <p>This a perfect example from LinkedIn as it is sent shortly after looking into a premium account. In this case, it explains the benifits of a premium account and how it can help the user achieve their goals. To increase the value proposition, this email also includes a free month of premium that can be canceled at any time.</p>
+              <p>This was the first email I built. I liked the challenge presented by the various shades and trying to fully color the backgrounds. The header was more challenging as it is broken into multiple sub sections. The images all have transparent backgrounds so I may update this to be more dark mode friendly. For now, it remains a carbon copy.</p>
+            </div>
+          ),
+          transamericaemail: (
+            <div className="details">
+              <h3>TransAmerica Email</h3><hr />
+              <p>Milestone emails are automated messages that are a part of the lifecycle routine. They are responsible for improving customer engagment.</p>
+              <p>Birthday emails are perhaps the most common example and have a 481% higher transaction rate. This example from TransAmerica stands out by maintaining a fun and complimentary tone while reminding the audience of it's value proposition.</p>
+              <p>If I were to make alterations to this email, I'd increase the size of the Follow Us text to 20px and change the color to yellow to match the hero banner. I'd also change the padding so that the text properly aligns on the left for the logo, hero text, and paragraphs. Since the original design was offset, I have left it as close to the original as posible.</p>
+            </div>
+          ),
+          soylentemail: (
+            <div className="details">
+              <h3>Soylent Email</h3><hr />
+              <p>Newsletter emails are sent to inform subscribers about the latest news, updates, or products from your company. They are responsible for keeping subscribers connected, engaged, and informed.</p>
+              <p>This example from Soylent is a great attention grabber with a cute hero section that clearly highlights their new product.</p>
+              <p>If I could improve this email, I'd change the background of the call to action button to yellow and the text color to black to match the top of the soylent bottle.</p>
+            </div>
+          ),
+          displateemail: (
+            <div className="details">
+              <h3>Displate Email</h3><hr />
+              <p>Promotional emails are sent to inform potential customers about coupons, discounts, or grant access to exclusive content. They are responsible for getting the word out to potential customers about products and services.</p>
+              <p>This is a perfect example from Displate as it shows a limited time offer suggests multiple products at a glance. At the end, it even shows the benefits of Displate Club and invites the recipient to join.</p>
+              <p>The timer gave me trouble in this email as I could not find a solution that would work with outlook. In the end, I used the same method that was employed by Displate. If I were to make alterations, the posters have inconsistent padding and the laptop image could be better.</p>
+            </div>
+          ),
+          walmartemail: (
+            <div className="details">
+              <h3>Walmart Email:</h3><hr />
+              <p>Survey emails are targeted attempts to collect quantitative data. They are responsible for collecting data, but also for making the customer feel like their opinion is valuable.</p>
+              <p>This example from Walmart clearly indicates it's purpose and offers an incentive for completing the redirect survey.</p>
+              <p>This email was my favorite to work on becuase I was able to convert many of the images to actual css code. The entire hero section was originally one image, but I separated it and used a different image for the fruit in the background. I also incorperated ghost tables for microsoft office and made the email friendly for dark mode users. I was able to do all this while maintaining the structure of the email at all display sizes. </p>
+            </div>
+          )
+        }[name.slice(0, -5)]
+      }
     </React.Fragment>
   );
 };

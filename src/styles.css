@@ -339,7 +339,6 @@ a {
   width: 100%;
   background: var(--background4);
   height: fit-content;
-  margin-top: -3px;
   z-index: 1;
 }
 
@@ -370,14 +369,14 @@ a {
   position: relative;
   width: fit-content;
   background: var(--background1);
-  padding: 0.5rem;
+  padding: 0.34rem 0 0.56rem 0;
+  height: 1.1rem;
 }
 
 .home {
   max-width: 80rem;
   margin: auto;
 }
-
 
 #Welcome {
   display: grid;
@@ -389,9 +388,10 @@ a {
 }
 
 #About,
-#CER, 
+#CER,
 #Contact {
   margin-bottom: 50px;
+  margin-right: 1rem;
 }
 
 .welcomeGrid {
@@ -416,11 +416,15 @@ a {
 
 .welcomeGrid1 {
   display: grid;
-  grid-template-columns: 1fr auto;
-  white-space: nowrap;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 1.6rem;
+  white-space: normal;
+  align-items: center;
 }
 
-.welcomeGrid1 .wrap {
+.contactGrid {
+  display: grid;
+  grid-template-columns: 1fr 9.8rem;
   white-space: normal;
 }
 
@@ -428,8 +432,8 @@ a {
   margin: 0.625rem 0 0.625rem 0;
   padding: 0.625rem;
   background: var(--background);
-  max-width: 31rem;
   cursor: pointer;
+  margin-right: 1rem;
 }
 
 .darkCell:hover {
@@ -446,10 +450,24 @@ a {
   font-weight: normal;
 }
 
+.inlineICO {
+  fill: var(--textColor1);
+  width: 0.8rem;
+}
+
+
+.ablockContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 9.8rem;
+  padding-top: 1.5rem
+}
+
 .ablock a {
   color: var(--accent);
   display: block;
   margin: 0.625rem;
+  margin-bottom: 0;
   text-decoration: none;
 }
 
@@ -461,7 +479,7 @@ a {
 }
 
 .contact-form {
-  width: 80%;
+  margin-right: 1rem;
 }
 
 .contact-form label {
@@ -488,12 +506,8 @@ a {
   color: var(--textColor3);
 }
 
-
-.contactGrid {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-gap: 1.6rem;
-  white-space: normal;
+.contact-form textarea {
+  height: 2.8rem;
 }
 
 .extensionHeader {
@@ -501,11 +515,11 @@ a {
 }
 
 .extensionID {
-  font-size: .8rem;
+  font-size: 0.8rem;
   background: var(--background4);
-  padding: 0 .3125rem;
-  margin-left: .625rem;
-  border-radius: .3125rem;
+  padding: 0 0.3125rem;
+  margin-left: 0.625rem;
+  border-radius: 0.3125rem;
   position: relative;
   top: -5px;
 }
@@ -516,13 +530,29 @@ a {
 }
 
 .extensionDescription {
-  margin-top: .3125rem;
+  margin-top: 0.3125rem;
 }
 
-.htmlContainer {display: flex; width: 100%; height: 100%; flex-direction: column; overflow: hidden;}
-.htmlHeader { }
-.htmlBody { flex-grow: 1; border: none; margin: 0; padding: 0; position: relative; width: 100%; height: calc(100vh - 14.4rem); overflow: auto; }
-.htmlBody iframe { 
+.htmlContainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  overflow: hidden;
+}
+.htmlHeader {
+}
+.htmlBody {
+  flex-grow: 1;
+  border: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 14.4rem);
+  overflow: auto;
+}
+.htmlBody iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -571,6 +601,7 @@ a {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(0px, 600px));
   grid-gap: 1.6rem;
+  margin-right: 1rem;
 }
 
 .portfolioGrid.mb {
@@ -603,13 +634,14 @@ a {
 }
 
 .iwrapper a {
-  position:absolute; 
-  top:0; 
-  left:0; 
-  display:inline-block; 
-  width:100%; 
-  height:100%; 
-  z-index:1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  text-decoration: none;
 }
 
 @media (max-width: 1054px) {
@@ -624,11 +656,19 @@ a {
   .contact-form {
     width: 100%;
   }
+  .ablockContainer {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 6fr 5fr;
+    justify-self: center;
+    min-width: 100%;
+  }
 }
 
 @media (max-width: 775px) {
   .welcomeGrid,
-  .welcomeGrid1 {
+  .welcomeGrid1,
+  .contactGrid {
     white-space: normal;
   }
 }
