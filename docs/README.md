@@ -3,7 +3,7 @@
 *** If would like to help make this IDE design better,
 *** please fork the repo and create a pull request.
 -->
-# VSPortfiolioBuild
+# VSPortfiolio
 <!-- MaverickCER LOGO -->
 <br />
 <p align="center">
