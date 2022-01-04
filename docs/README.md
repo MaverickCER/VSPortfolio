@@ -7,7 +7,7 @@
 <!-- MaverickCER LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/MaverickCER/VSPortfolioBuild/edit/main/README.md">
+  <a href="https://github.com/MaverickCER/VSPortfolio/edit/main/README.md">
     <img src="https://i.imgur.com/FPLubfR.png" alt="Logo" width="80" height="auto">
   </a>
 
@@ -21,9 +21,9 @@
     <br />
     <a href="https://www.maverickcer.dev">View Live Portfolio</a>
     ·
-    <a href="https://github.com/MaverickCER/VSPortfolioBuild/issues">Report Bug</a>
+    <a href="https://github.com/MaverickCER/VSPortfolio/issues">Report Bug</a>
     ·
-    <a href="https://github.com/MaverickCER/VSPortfolioBuild/issues">Request Feature</a>
+    <a href="https://github.com/MaverickCER/VSPortfolio/issues">Request Feature</a>
   </p>
 </p>
 
@@ -63,7 +63,6 @@ Cons:
 
 With that in mind, this is not portfolio for freelancing and you may very well miss opportunities to work at larger companies.<br/>
 Going forward, I will work on making the site more welcoming to recruiters while still being recognizable as an IDE.<br/>
-VSPortfolioBuild is the production build of VSPortfolio.<br/>
 The development code can be found at [https://github.com/MaverickCER/VSPortfolio](https://github.com/MaverickCER/VSPortfolio)<br/>
 The online IDE can be found at [https://codesandbox.io/s/vsportfolio-ks4ns](https://codesandbox.io/s/vsportfolio-ks4ns)<br/>
 The live site is available at [https://www.maverickcer.dev](https://www.maverickcer.dev)
@@ -88,7 +87,7 @@ Change the EmailJS parameters at `/src/components/contact.component.jsx`
 <!-- ROADMAP -->
 ## Roadmap
 
-See [Issues](https://github.com/MaverickCER/VSPortfolioBuild/issues) for a list of proposed features (and known issues).
+See [Issues](https://github.com/MaverickCER/VSPortfolio/issues) for a list of proposed features (and known issues).
 
 
 <!-- CONTRIBUTING -->
@@ -96,7 +95,7 @@ See [Issues](https://github.com/MaverickCER/VSPortfolioBuild/issues) for a list 
 
 As this is a portfolio site, I am not accepting any contributions.<br/>
 Feel free to clone and improve the site for your own use!<br/>
-If you have suggestions, they can be added to [Issues](https://github.com/MaverickCER/VSPortfolioBuild/issues)
+If you have suggestions, they can be added to [Issues](https://github.com/MaverickCER/VSPortfolio/issues)
 
 
 <!-- CONTACT -->
@@ -113,7 +112,7 @@ Maverick Manasco - @MaverickCER<br/>
 [![Twitter](https://cdn0.iconfinder.com/data/icons/social-rounded/72/Twitter-24.png)](https://twitter.com/MaverickCER) 
 [![YouTube](https://cdn0.iconfinder.com/data/icons/social-rounded/72/Youtube-24.png)](https://studio.youtube.com/channel/UCkYSvi4dRFcsrSIbE5Sflmg)
 
-Project Link: [https://github.com/MaverickCER/VSPortfolioBuild](https://github.com/MaverickCER/VSPortfolioBuild)
+Project Link: [https://github.com/MaverickCER/VSPortfolio](https://github.com/MaverickCER/VSPortfolio)
 
 
 <!-- ACKNOWLEDGEMENTS -->
